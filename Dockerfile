@@ -28,3 +28,11 @@ RUN cd /tmp \
 	&& make install \
 	&& cd .. \
 	&& rm -rf Image-ExifTool-${EXIFTOOL_VERSION}
+
+RUN pip3 install --upgrade pip
+RUN pip3 install -U pip setuptools
+
+WORKDIR /base
+COPY requirements.txt /base
+
+RUN pip3 install --no-cache-dir --upgrade -r requirements.txt

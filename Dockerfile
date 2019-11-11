@@ -9,6 +9,7 @@ RUN apk update && apk add --update --no-cache \
     build-base \
     gettext \
     libffi-dev \
+    libxslt-dev \
     libmagic
 
 RUN apk add jpeg-dev \

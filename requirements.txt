@@ -9,6 +9,6 @@ pymorphy2-dicts-ru==2.4.404381.4453942
 pandas==0.25.3
 colormath==3.0.0
 opencv-python==4.1.1.26
-opencv-contrib-python==4.1.1.26
+opencv-contrib-python==4.2.0.32
 
 lxml==4.4.1
